@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  color: #292929;
+  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", sans-serif;
+}
+
+.hoiDap {
+  margin-top: 24px;
+  border-bottom: 1px solid rgba(210, 210, 210, 0.3);
+}
+.hoiDap h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 20px;
+}
+.hoiDap p {
+  margin: 0 0 15px 0;
+}
+.hoiDap p:first-child {
+  margin: 24px 0;
+}
+
+/*# sourceMappingURL=hoiDap.css.map */

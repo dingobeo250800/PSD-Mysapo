@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$myOrange: #ff5b02;
+$myBlack: #000;
+$myWhite: #fff;
+$myBoder: rgba(210, 210, 210, 0.3);
+$myRed: #e62901;
+$mygrey: #959595;
+$colorBgr-search: #010e2a;
+$myform: #313437;
+$myNewleter: #d4d4d4;
+$myBgrColor_nextPage: #f7f7f7;
+body {
+    font-size: 14px;
+    color: #292929;
+    font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", sans-serif;
+}
+.service {
+    margin-top: 24px;
+    border-bottom: none;
+}
+.tinTuc {
+    .item {
+        position: relative;
+        margin-bottom: 30px;
+        .item-img {
+            width: 100%;
+            display: block;
+            margin-bottom: 15px;
+            img {
+                width: 100%;
+                display: block;
+            }
+            span{
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: $myOrange;
+                text-align: center;
+                font-size: 28px;
+                font-weight: 700;
+                color: $myWhite;
+                p{
+                    display: inline-block;
+                    background-color: #313437;
+                    margin-bottom: 0;
+                    font-size: 14px;
+                    font-weight: 700;
+                    padding: 7px 10px;
+                }
+            }
+        }
+        .item-name{
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 22px;
+            display: block;
+            a{
+                color: #292929;
+                text-decoration: none;
+                &:hover{
+                    color: $myRed;
+                }
+            }
+        }
+    }
+}

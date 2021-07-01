@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$myOrange: #ff5b02;
+$myBlack: #000;
+$myWhite: #fff;
+$myBoder: rgba(210, 210, 210, 0.3);
+$myRed: #e62901;
+$mygrey: #959595;
+$colorBgr-search: #010e2a;
+$myform: #313437;
+$myNewleter: #d4d4d4;
+$myBgrColor_nextPage: #F7F7F7;
+body {
+    font-size: 14px;
+    color: #292929;
+    font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", sans-serif;
+}
+.about{
+    margin-top: 24px;
+    border-bottom: 1px solid $myBoder;
+    h3{
+        font-size: 24px;
+        font-weight: 700;
+        margin: 0 0 20px;
+    }
+}

@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  color: #292929;
+  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", sans-serif;
+}
+
+.service {
+  margin-top: 24px;
+  border-bottom: none;
+}
+
+.tinTuc .item {
+  position: relative;
+  margin-bottom: 30px;
+}
+.tinTuc .item .item-img {
+  width: 100%;
+  display: block;
+  margin-bottom: 15px;
+}
+.tinTuc .item .item-img img {
+  width: 100%;
+  display: block;
+}
+.tinTuc .item .item-img span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff5b02;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+}
+.tinTuc .item .item-img span p {
+  display: inline-block;
+  background-color: #313437;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 7px 10px;
+}
+.tinTuc .item .item-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  display: block;
+}
+.tinTuc .item .item-name a {
+  color: #292929;
+  text-decoration: none;
+}
+.tinTuc .item .item-name a:hover {
+  color: #e62901;
+}
+
+/*# sourceMappingURL=tinTuc.css.map */

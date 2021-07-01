@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/tinTucDetail.css">
+    <title>Tin Tức detail</title>
+</head>
+
+<body>
+    <section class="topbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="topbar-left">
+                        Chào mừng bạn đến với dịch vụ vận chuyển của chúng tôi
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="topbar-icon">
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- header màn hình laptop -->
+    <header class="header">
+        <div class="mid-header-wrap">
+            <div class="container">
+                <div class="mid-header">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="header-logo">
+                                <a href="index.html" class="img-logo">
+                                    <img src="./img/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="header-search ">
+                                <form action="">
+                                    <input type="text" placeholder="Bạn muốn tìm thông tin nào...">
+                                    <button class="btn-search">
+                                        <a href="serch.html">
+                                            <i class="fas fa-search"></i>
+                                        </a>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 pr-0 pl-0">
+                            <div class="header-contact">
+                                <div class="contact-bl">
+                                    <p>Tư vấn dịch vụ</p>
+                                    <a href="tel:0388287614">0388287614</a>
+                                </div>
+                                <div class="contact-bl">
+                                    <p>Tư vấn vận chuyển</p>
+                                    <a href="tel:0388287614">0388287614</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="navBar-main">
+            <div class="container">
+                <div class="navBar">
+                    <ul>
+                        <li class="current-menu-item">
+                            <a href="index.html">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="gioiThieu.html">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <a href="thiTruong.html">Thị trường</a>
+                            <span>
+                                <i class="fas fa-angle-down"></i>
+                            </span>
+                            <ul>
+                                <li>
+                                    <a href="tinTuc.html">Tin tức</a>
+                                    <span>
+                                        <i class="fas fa-angle-right"></i>
+                                    </span>
+                                    <ul>
+                                        <li>
+                                            <a href="recruitment.html">Tin tuyển dụng</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="orderingSkill.html">Kỹ năng đặt hàng</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="dichVu.html">Dịch vụ</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Liên hệ</a>
+                        </li>
+                        <li>
+                            <a href="hoiDap.html">Hỏi đáp</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- header màn hình tablet -->
+    <header class="tablet">
+        <div class="tablet-mid__header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="tablet-logo">
+                            <div class="mobile-menu">
+                                <i class="fas fa-bars"></i>
+                            </div>
+                            <div class="tablet-logo1">
+                                <a href="index.html" class="img-logo1">
+                                    <img src="./img/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="header-contact">
+                            <div class="contact-bl">
+                                <p>Tư vấn dịch vụ</p>
+                                <a href="tel:0388287614">0388287614</a>
+                            </div>
+                            <div class="contact-bl">
+                                <p>Tư vấn vận chuyển</p>
+                                <a href="tel:0388287614">0388287614</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="tablet__search-wrap">
+            <div class="container">
+                <div class="tablet__search">
+                    <form action="">
+                        <input type="text" placeholder="Bạn muốn tìm thông tin nào...">
+                        <button class="btn-search">
+                            <a href="">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- header màn hình mobile -->
+    <header class="mobile">
+        <div class="mobile-logo ">
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="mobile-logo1">
+                <a href="index.html" class="img-logo1">
+                    <img src="./img/logo.png" alt="">
+                </a>
+            </div>
+        </div>
+        <section class="mobile-search-wrap">
+            <div class="mobile__search">
+                <form action="">
+                    <input type="text" placeholder="Bạn muốn tìm thông tin nào...">
+                    <button class="btn-search">
+                        <a href="serch.html">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </header>
+    <!-- sideBar -->
+    <div class="side-bar">
+        <a href="index.html" class="logo-sidebar">
+            <img src="./img/logo.png" alt="ảnh logo">
+        </a>
+        <ul>
+            <li>
+                <a href="index.html">Trang chủ</a>
+            </li>
+            <li>
+                <a href="gioiThieu.html">Giới thiệu</a>
+            </li>
+            <li>
+                <a href="thiTruong.html">Thị trường</a>
+                <span class="slideToggle-icon">
+                    <i class="fa fa-angle-down "></i>
+                </span>
+                <ul>
+                    <li>
+                        <a href="tinTuc.html">Tin tức</a>
+                        <span class="slideToggle-icon">
+                            <i class="fa fa-angle-down"></i>
+                        </span>
+                        <ul>
+                            <li>
+                                <a href="recruitment.html">Tin tuyển dụng</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="orderingSkill.html">Kỹ năng đặt hàng</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="dichVu.html">Dịch vụ</a>
+            </li>
+            <li>
+                <a href="contact.html">Liên hệ</a>
+            </li>
+            <li>
+                <a href="hoiDap.html">Hỏi đáp</a>
+            </li>
+        </ul>
+    </div>
+    <!-- close-btn -->
+    <div class="close-btn"></div>
+    <main>
+        <section class="nextPage">
+            <div class="container">
+                <span><a href="index.html">Trang chủ</a> <i class="fas fa-angle-right"></i> <a
+                        href="recruitment.html">Tin tuyển dụng</a><i class="fas fa-angle-right"></i><a
+                        href="tinTucDetail4.html"> Nghề xách tay hàng hiệu - Có mánh nhanh giàu
+                    </a>
+                </span>
+            </div>
+        </section>
+        <section class="product-detail">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="detail-content">
+                            <h3>
+                                Nghề xách tay hàng hiệu - Có mánh nhanh giàu
+                            </h3>
+                            <p>
+                                <span>0 Bình luận | 26/05/2019</span>
+                            </p>
+                            <p>
+                                Dịch vụ vận chuyển hàng hóa từ nước ngoài về Việt Nam đang được coi là nghề đem lại thu
+                                nhập hấp dẫn. Song thực tế đây lại là nghề ẩn chứa rủi ro nếu người làm không biết mánh.
+                            </p>
+                            <p>
+                                Nguyễn Thu Hiền (Cầu Giấy, Hà Nội) thức cả đêm để phân loại chuyến hàng mới về. Gian
+                                phòng rộng hơn 20 m2 chật cứng các kiện hàng to nhỏ chủ yếu là sữa, mỹ phẩm, thực phẩm
+                                chức năng…
+                            </p>
+                            <p>
+                                Hiền cho biết, lần này trúng đợt giảm giá lớn của nhiều hãng, hàng lại về đúng lịch nên
+                                khách đặt mua nhiều. Công vận chuyển của Hiền và các đầu mối trong chuyến này có thể
+                                bằng một nửa thu nhập cả tháng.
+                            </p>
+                            <p>
+                                Nghề xách tay, vận chuyển hàng từ nước ngoài về Việt Nam hơn một năm nay đem lại cho
+                                Hiền khoảng 15 triệu đồng mỗi tháng. Cô tiết lộ, vì chỉ là nghề tay trái, làm quy mô nhỏ
+                                nên thu nhập vừa phải. Nếu làm lớn, nhận xách các loại hàng phong phú hơn, tiền công có
+                                thể gấp nhiều lần hiện tại.
+                            </p>
+                            <p>
+                                Mai Linh (Đội Cấn, quận Ba Đình), bạn của Hiền xác nhận hơn chục triệu đồng mỗi tháng
+                                chỉ là khoản thu nhập rất "bèo" trong giới nhận order (vận chuyển hàng hóa ngoại nhập).
+                                Nếu đầu tư thời gian, công sức thì đây là nghề kiếm tiền hấp dẫn.
+                            </p>
+                            <p>
+                                Mai Linh hiện nhận vận chuyển chủ yếu là hàng hiệu thời trang như quần áo, giày dép,
+                                đồng hồ, mỹ phẩm, nước hoa… Đây được cho là các mặt hàng dễ vận chuyển, công cao.
+                            </p>
+                            <p>
+                                Ngoài ra, theo Linh và một số nhà nhận đặt hàng thuê (nhà order) chia sẻ, có nhiều bí
+                                quyết giúp họ tăng thu nhập tốt từ dịch vụ này. “Ví dụ, tính riêng việc nhận đặt, nếu
+                                bạn chỉ nhận các đơn hàng lẻ của khách thì mãi mãi chỉ ngồi nhặt bạc lẻ mà thôi. Mánh
+                                đơn giản nhất để tăng thu là ngồi canh hàng hiệu giảm giá hoặc các mẫu hàng đang hot gợi
+                                ý cho khách” - cô giải thích.
+                            </p>
+                            <p>
+                                Để tăng lượng đặt hàng, Nguyễn Đức Ngọc (Nghĩa Tân, quận Cầu Giấy) ngày đêm canh các đợt
+                                giảm giá của nhiều hãng thời trang, mỹ phẩm, đồ gia dụng nổi tiếng. Sau đó, Đức chia sẻ
+                                đường link cho khách hàng cùng đặt mua.
+                            </p>
+                            <p>
+                                Thậm chí, anh sẵn sàng chia sẻ với khách mã mua hàng ưu đãi của mình để khách cùng
+                                hưởng. Bằng cách này, số khách đặt hàng ở cùng một địa chỉ tăng mạnh.
+                            </p>
+                            <p>
+                                Mua lượng hàng lớn tại một địa điểm giúp cả người mua hộ và khách mua chung hưởng nhiều
+                                ưu đãi về giá, phí vận chuyển… “Cứ mỗi sản phẩm tính công 10 USD/kg thì một chuyến đi
+                                mua hàng trực tiếp chỉ cần mua 20-30 đơn là lãi khá rồi” - Đức cho biết.
+                            </p>
+                            <p>
+                                Chuyên vận chuyển hàng Mỹ - Việt, mùa kiếm tiền của nhóm Ngọc Đức rơi vào tháng 7 (tháng
+                                có ngày lễ quốc khánh Mỹ), tháng 10, 11 và 12 (dịp Black Friday và cuối năm). Đây là
+                                khoảng thời gian diễn ra nhiều đợt giảm giá lớn trên toàn nước Mỹ.
+                            </p>
+                            <p>
+                                Ngoài việc mua và vận chuyển hộ, các nhà order còn tranh thủ dịp này xả vốn để nhập hàng
+                                giá rẻ về trong nước tiêu thụ ăn chênh lệch.
+                            </p>
+                            <p>
+                                Tuy nhiên, Ngọc Đức thành thật để duy trì và có thu nhập tốt từ dịch vụ order, Đức đã
+                                trải qua không ít tai nạn nghề nghiệp. Nhiều lần, do thiếu kinh nghiệm, công vận chuyển
+                                cả đợt mấy trăm sản phẩm không đủ giúp anh bù khoản lỗ do mất hàng của khách.
+                            </p>
+                            <p>
+                                Anh chia sẻ chuyện mất hàng, thiếu hàng xảy ra thường xuyên trong các đợt khuyến mại
+                                lớn. Lượng khách mua quá đông khiến nhân lực hãng quá tải, ảnh hưởng tới dịch vụ. Nhiều
+                                trường hợp, hàng chưa chuyển đi nhưng hãng vẫn báo chuyển rồi hoặc hàng thiếu, hàng giảm
+                                giá lỗi khá nhiều. Đương nhiên, khách hàng không thể chấp nhận việc này.
+                            </p>
+                            <p>
+                                Trong những trường hợp như vậy, để giữ khách, Ngọc Đức thường phải liên hệ lại với hãng,
+                                chịu nhiều thủ tục rườm rà nhằm đổi trả hoặc lấy lại hàng cho khách.F
+                            </p>
+                            <p>
+                                Sau "tai nạn" này, Đức rút kinh nghiệm, thỏa thuận trước với khách hàng về nguyên tắc
+                                làm việc. Đồng thời, anh không quên gợi ý khách chọn mua của những hãng có dịch vụ hậu
+                                mãi chu đáo, an toàn.
+                            </p>
+                            <p>
+                                Chung hoàn cảnh, Cẩm Tú (quận 2, TP HCM) trải lòng: “Làm order, nhiều khi tiền công
+                                chẳng đủ bù rủi ro mà vẫn bị khách rầy la, cực lắm”.
+                            </p>
+                            <p>
+                                Nhớ lại thời gian đầu nhận xách tay hàng hiệu về Việt Nam, Tú kể để giảm phí cân nặng
+                                (khoảng 10 USD/kg), nhà order và khách thỏa thuận bỏ lại các loại vỏ hộp, giấy, xốp chèn
+                                và chỉ chuyển lõi hàng về Việt Nam. Tuy nhiên, các sản phẩm như túi xách, giầy dép do bỏ
+                                bao bì, thi thoảng bị bẩn, xước. Trong những trường hợp đó, thường khách không chịu và
+                                đòi trả lại hàng cho bên vận chuyển.
+                            </p>
+                            <p>
+                                “Mình chỉ làm dịch vụ vận chuyển nhưng nhiều khách không hiểu chuyện còn bắt mình phải
+                                chịu trách nhiệm với những sản phẩm lỗi do nhà sản xuất. Lý luận của khách là, hàng hiệu
+                                thì không thể lỗi (?!)” - Tú cho hay.
+                            </p>
+                            <p>
+                                Hơn một năm làm nghề, không ít lần Mai Linh dở khóc dở cười khi khách cương quyết trả
+                                lại bộ quần áo thương hiệu Nhật nhưng trên mác lại ghi địa chỉ sản xuất là “Made in
+                                Vietnam" hoặc "Made in China".
+                            </p>
+                            <p>
+                                Gần đây nhất, một nữ khách hàng tìm tới tận nhà "bắt đền" Linh vì thỏi son tiền triệu
+                                order nhà cô mở ra bị gẫy mặc dù đã được bao bọc không thể kỹ hơn.
+                            </p>
+                            <p>
+                                Nhu cầu mua hàng chính hãng từ nước ngoài của người Việt ngày càng gia tăng là cơ hội để
+                                nhiều người phát triển dịch vụ vận chuyển hàng hóa về thị trường nội địa. Tuy nhiên
+                                những câu chuyện thực tế trên cho thấy, đây không đơn thuần là việc mua hộ, xách về và
+                                thu tiền.
+                            </p>
+                        </div>
+                        <h4 class="title_h4">1 Bình luận:</h4>
+                        <div class="contact-comment">
+
+                            <div class="customer">
+                                <div class="customer-img">
+                                    <img src="./img/cmt.png" alt="ảnh của khách hàng">
+                                </div>
+                                <div class="customer-cmt">
+                                    <strong>qưf</strong>
+                                    <p>29/09/2020</p>
+                                    <span>dsdsf</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row group-contact">
+                            <h4 class="title_h4">Viết bình luận của bạn:</h4>
+                            <div class="col-lg-6 form-contact">
+                                <input type="text" placeholder="Họ và tên">
+                            </div>
+                            <div class="col-lg-6 form-contact">
+                                <input type="text" placeholder="Số điện thoại">
+                            </div>
+                            <div class="col-lg-12 form-contact">
+                                <input type="text" placeholder="Email">
+                            </div>
+                            <div class="col-lg-12 form-contact">
+                                <textarea type="text" placeholder="Nội dung" rows="5" cols="70" name="comment"
+                                    form="usrform"></textarea>
+                            </div>
+                            <a href="" class="btn-contact">Gửi liên hệ</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="sideBar-product">
+                            <h4>
+                                <a href="tinTuc.html">
+                                    Đọc tin nhiều
+                                </a>
+                            </h4>
+                            <div class="sideBar-item">
+                                <a href="tinTucDetail.html" class="sideBar-item__img">
+                                    <img src="./img/thiTruong/item1.jpg" alt="">
+                                </a>
+                                <div class="sideBar-item__name">
+                                    <a href="tinTucDetail.html">
+                                        Lấy hàng quần áo quảng châu cho nữ đẹp giá sỉ tốt nhất cho chị em
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="sideBar-item">
+                                <a href="tinTucDetail2.html" class="sideBar-item__img">
+                                    <img src="./img/thiTruong/item2.jpg"
+                                        alt="Đặt hàng quảng châu về kinh doanh có lợi ích gì?">
+                                </a>
+                                <div class="sideBar-item__name">
+                                    <a href="tinTucDetail2.html">
+                                        Đặt hàng quảng châu về kinh doanh có lợi ích gì?
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="sideBar-item">
+                                <a href="tinTucDetail3.html" class="sideBar-item__img">
+                                    <img src="./img/thiTruong/item3.png"
+                                        alt="Cần thuê xe tải chở hàng của nhà xe Á Châu phải làm thế nào?">
+                                </a>
+                                <div class="sideBar-item__name">
+                                    <a href="tinTucDetail3.html">
+                                        Cần thuê xe tải chở hàng của nhà xe Á Châu phải làm thế nào?
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="sideBar-item">
+                                <a href="tinTucDetail4.html" class="sideBar-item__img">
+                                    <img src="./img/thiTruong/item4.jpg"
+                                        alt="Nghề xách tay hàng hiệu - Có mánh nhanh giàu">
+                                </a>
+                                <div class="sideBar-item__name">
+                                    <a href="tinTucDetail4.html">
+                                        Nghề xách tay hàng hiệu - Có mánh nhanh giàu
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="sideBar-item">
+                                <a href="tinTucDetail5.html" class="sideBar-item__img">
+                                    <img src="./img/thiTruong/item5.jpg"
+                                        alt="Không tin trạm cân, tài xế xe tải nằm chờ suốt đêm">
+                                </a>
+                                <div class="sideBar-item__name">
+                                    <a href="tinTucDetail5.html">
+                                        Không tin trạm cân, tài xế xe tải nằm chờ suốt đêm
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="newleter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="newleter-item">
+                            <div class="item-img">
+                                <img src="./img/icon/icon5.png" alt="">
+                            </div>
+                            <div class="item-contact">
+                                <p>Tổng đài hỗ trợ (8h00 - 22h00)</p>
+                                <a href="tel:0388287614">0388287614</a>
+                                <span>Email: <a href="mailto:deltawebltd@gmail.com">deltawebltd@gmail.com</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="newleter-item">
+                            <div class="item-img">
+                                <img src="./img/icon/icon6.png" alt="">
+                            </div>
+                            <div class="item-contact">
+                                <p>Nhận tin ưu đãi mới nhất !</p>
+                                <form action="">
+                                    <input type="text" placeholder="Nhập Email">
+                                    <button href="">Đăng KÝ</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-mid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+                        <div class="footer-information">
+                            <h3>
+                                TỔNG CÔNG TY CỔ PHẦN DELTA TRANSPORT
+                            </h3>
+                            <p>
+                                Delta Transport là doanh nghiệp hàng đầu cung cấp dịch vụ chuyển phát nhanh hàng hoá,
+                                bưu kiện trong nước, quốc tế tại Việt Nam.
+                            </p>
+                            <div class="information-icon d-flex align-items-center">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker"></i>
+                                </div>
+                                <span>
+                                    An Thượng, Hà Nội, Vietnam
+                                </span>
+                            </div>
+                            <div class="information-icon d-flex align-items-center">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <span>
+                                    <a href="mailto:deltawebltd@gmail.com">deltawebltd@gmail.com</a>
+                                </span>
+                            </div>
+                            <div class="information-icon d-flex align-items-center">
+                                <div class="icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <span>
+                                    <a href="tel:0388287614">0388287614</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-introduce">
+                            <h3>Giới thiệu</h3>
+                            <ul>
+                                <li><a href="index.html">Trang chủ</a></li>
+                                <li><a href="gioiThieu.html">Giới thiệu</a></li>
+                                <li><a href="thiTruong.html">Thị trường</a></li>
+                                <li><a href="dichVu.html">Dịch vụ</a></li>
+                                <li><a href="contact.html">Liên hệ</a></li>
+                                <li><a href="hoiDap.html">Hỏi đáp</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-introduceToggle">
+                            <h3>Giới thiệu</h3>
+                            <div class="opent-toggle">
+                                <span class="toggle-icon">
+                                    <i class="fas fa-minus"></i>
+                                </span>
+                                <span class="addRemove-icon ">
+                                    <i class="fas fa-minus"></i>
+                                </span>
+                            </div>
+                            <ul>
+                                <li><a href="index.html">Trang chủ</a></li>
+                                <li><a href="gioiThieu.html">Giới thiệu</a></li>
+                                <li><a href="thiTruong.html">Thị trường</a></li>
+                                <li><a href="dichVu.html">Dịch vụ</a></li>
+                                <li><a href="contact.html">Liên hệ</a></li>
+                                <li><a href="hoiDap.html">Hỏi đáp</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <div class="row footer-contact">
+                            <div class="advisory-contact col-lg-12 col-md-12 col-sm-6 col-xs-12 p-0 mb-2">
+                                <h3>hỗ trợ siêu tốc</h3>
+                                <div class="advisory">
+                                    <div class="advisory-img">
+                                        <img src="./img/icon/icon-telemarketer.png" alt="Ảnh tư vấn khách hàng">
+                                    </div>
+                                    <div class="advisory-contact">
+                                        <p>Liên hệ Hotline: 7:00 – 20:00</p>
+                                        <a href="tel:0388287614">0388287614</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="support-contact  col-lg-12 col-md-12 col-sm-6 col-xs-12 p-0 mb-2">
+                                <p class="contact-p">Hỗ trợ</p>
+                                <div class="contact-icon d-flex">
+                                    <a href=""><i class="fab fa-facebook-square"></i></a>
+                                    <a href=""><i class="fab fa-youtube"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-buttom">
+            <div class="container">
+                <span>© Bản quyền thuộc về <b>Delta Web</b> | Cung cấp bởi <a href="">Sapo</a></span>
+            </div>
+        </section>
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="./app.js"></script>
+
+</html>
