@@ -37,10 +37,29 @@ $(document).ready(function () {
     });
 });
 
-
+// backTop
 $(document).ready(function () {
     $('.backTop').click(function (e) {
         e.preventDefault();
         $('html, body').animate({ scrollTop: 0 }, '300');
     });
 });
+
+
+//CodePen Home Back to Top Button
+
+var btnBack = $('#item__btn-back');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btnBack.addClass('show');
+  } else {
+    btnBack.removeClass('show');
+  }
+});
+
+btnBack.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
