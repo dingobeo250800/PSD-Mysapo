@@ -77,10 +77,10 @@ body {
   background-color: #ff5b02;
   border: 1px solid;
   border-color: transparent;
-  line-height: 40px;
   padding: 13px 35px;
   text-decoration: none;
   transition: 0.25s;
+  outline: none;
 }
 .contact-wrap .btn-contact:hover {
   background-color: #fff;

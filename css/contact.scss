@@ -90,10 +90,10 @@ body {
         background-color: $myOrange;
         border: 1px solid;
         border-color: transparent;
-        line-height: 40px;
         padding: 13px 35px;
         text-decoration: none;
         transition: .25s;
+        outline: none;
         &:hover{
             background-color: $myWhite;
             border-color: $myRed;

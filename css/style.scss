@@ -101,10 +101,12 @@ body {
                     background: #fff;
                     transform: translateY(-50%);
                     outline: none;
+                    a{
+                        display: block;
                     i {
                         padding-right: 18px;
                         color: $mygrey;
-                    }
+                    }}
                 }
             }
         }
@@ -149,7 +151,7 @@ body {
                 > li.menu-item-has-children {
                     display: flex;
                     align-items: center;
-                    &::after{
+                    &::after {
                         content: "";
                         height: 10px;
                         width: 10px;
@@ -391,9 +393,12 @@ body {
             background: #fff;
             transform: translateY(-50%);
             outline: none;
-            i {
-                padding-right: 18px;
-                color: $mygrey;
+            a {
+                display: block;
+                i {
+                    padding-right: 18px;
+                    color: $mygrey;
+                }
             }
         }
     }
@@ -462,10 +467,13 @@ body {
             background: #fff;
             transform: translateY(-50%);
             outline: none;
+            a{
+                display: block;
             i {
                 padding-right: 18px;
                 color: $mygrey;
             }
+        }
         }
     }
 }
@@ -1463,7 +1471,7 @@ body {
     }
 }
 @media (max-width: 992px) {
-    .footer-contact{
+    .footer-contact {
         margin-bottom: 30px;
     }
 }
