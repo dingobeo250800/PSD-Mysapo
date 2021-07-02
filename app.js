@@ -19,6 +19,7 @@ $(document).ready(function () {
     })
 });
 
+// thêm dấu + ở phan ul,li trong Footer
 $(document).ready(function () {
     $('.opent-toggle').click(function () {
         $(this).next('.footer-introduceToggle ul').slideToggle();
@@ -30,6 +31,7 @@ $(document).ready(function () {
     });
 });
 
+// đây là click nó lưu lại cái li ở navBar
 $(document).ready(function () {
     $('.navBar-main .navBar ul li').click(function () {
         $('ul li').removeClass("current-menu-item");

@@ -51,34 +51,38 @@ body {
          }
     }
     .group-contact{
-        .form-contact{
-            input{
+        form{
+            width: 100%;
+            .form-contact{
                 width: 100%;
-                line-height: 50px;
-                border: 1px solid $myBoder;
-                border-radius: 3px;
-                background: transparent;
-                outline: none;
-                padding: 0 20px;
-                margin: 0 0 15px 0;
-                &::placeholder {
-                    color: $mygrey;
+                input{
+                    width: 100%;
+                    line-height: 50px;
+                    border: 1px solid $myBoder;
+                    border-radius: 3px;
+                    background: transparent;
+                    outline: none;
+                    padding: 0 20px;
+                    margin: 0 0 15px 0;
+                    &::placeholder {
+                        color: $mygrey;
+                    }
                 }
-            }
-            textarea{
-                resize: none;
-                width: 100%;
-                border: 1px solid $myBoder;
-                border-radius: 3px;
-                background: transparent;
-                outline: none;
-                padding: 10px 0 0 20px;
-                margin: 0 0 15px 0;
-                &::placeholder {
-                    color: $mygrey;
+                textarea{
+                    resize: none;
+                    width: 100%;
+                    border: 1px solid $myBoder;
+                    border-radius: 3px;
+                    background: transparent;
+                    outline: none;
+                    padding: 10px 0 0 20px;
+                    margin: 0 0 15px 0;
+                    &::placeholder {
+                        color: $mygrey;
+                    }
                 }
+    
             }
-
         }
     }
     .btn-contact{

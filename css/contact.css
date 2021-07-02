@@ -40,7 +40,13 @@ body {
   color: #959595;
   margin-bottom: 30px;
 }
-.contact-wrap .group-contact .form-contact input {
+.contact-wrap .group-contact form {
+  width: 100%;
+}
+.contact-wrap .group-contact form .form-contact {
+  width: 100%;
+}
+.contact-wrap .group-contact form .form-contact input {
   width: 100%;
   line-height: 50px;
   border: 1px solid rgba(210, 210, 210, 0.3);
@@ -50,10 +56,10 @@ body {
   padding: 0 20px;
   margin: 0 0 15px 0;
 }
-.contact-wrap .group-contact .form-contact input::placeholder {
+.contact-wrap .group-contact form .form-contact input::placeholder {
   color: #959595;
 }
-.contact-wrap .group-contact .form-contact textarea {
+.contact-wrap .group-contact form .form-contact textarea {
   resize: none;
   width: 100%;
   border: 1px solid rgba(210, 210, 210, 0.3);
@@ -63,7 +69,7 @@ body {
   padding: 10px 0 0 20px;
   margin: 0 0 15px 0;
 }
-.contact-wrap .group-contact .form-contact textarea::placeholder {
+.contact-wrap .group-contact form .form-contact textarea::placeholder {
   color: #959595;
 }
 .contact-wrap .btn-contact {

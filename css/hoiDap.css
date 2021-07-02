@@ -25,5 +25,8 @@ body {
 .hoiDap p:first-child {
   margin: 24px 0;
 }
+.hoiDap p img {
+  max-width: 100%;
+}
 
 /*# sourceMappingURL=hoiDap.css.map */

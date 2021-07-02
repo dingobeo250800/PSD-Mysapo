@@ -34,7 +34,7 @@
         </div>
     </section>
     <!-- header màn hình laptop -->
-    <header class="header">
+    <div class="header">
         <div class="mid-header-wrap">
             <div class="container">
                 <div class="mid-header">
@@ -84,11 +84,8 @@
                         <li>
                             <a href="gioiThieu.html">Giới thiệu</a>
                         </li>
-                        <li>
+                        <li class="menu-item-has-children">
                             <a href="thiTruong.html">Thị trường</a>
-                            <span>
-                                <i class="fas fa-angle-down"></i>
-                            </span>
                             <ul>
                                 <li>
                                     <a href="tinTuc.html">Tin tức</a>
@@ -119,9 +116,9 @@
                 </div>
             </div>
         </section>
-    </header>
+    </div>
     <!-- header màn hình tablet -->
-    <header class="tablet">
+    <div class="tablet">
         <div class="tablet-mid__header">
             <div class="container">
                 <div class="row">
@@ -166,9 +163,9 @@
                 </div>
             </div>
         </section>
-    </header>
+    </div>
     <!-- header màn hình mobile -->
-    <header class="mobile">
+    <div class="mobile">
         <div class="mobile-logo ">
             <div class="mobile-menu">
                 <i class="fas fa-bars"></i>
@@ -191,7 +188,7 @@
                 </form>
             </div>
         </section>
-    </header>
+    </div>
     <!-- background -->
     <section class="slide-header">
         <picture>
@@ -250,7 +247,7 @@
         <section class="title-all">
             <div class="container">
                 <div class="title-h2 text-center">
-                    <h2>DELTA TRANSPORT</h2>
+                    <h2 data-title="Chào mừng">DELTA TRANSPORT</h2>
                 </div>
             </div>
         </section>
@@ -321,7 +318,8 @@
                     <div class="col-lg-5 d-flex justify-content-center d-lg-block mb-3 mb-lg-0">
                         <div class="mission-img">
                             <img src="./img/bg12.jpg" alt="">
-                            <a href="" class="play-video" data-fancybox="video-gallery" data-src="https://www.youtube.com/watch?v=TxlOqKwWcT4">
+                            <a href="" class="play-video" data-fancybox="video-gallery"
+                                data-src="https://www.youtube.com/watch?v=TxlOqKwWcT4">
                                 <i class="fas fa-play"></i>
                                 <span class="ripple"></span>
                             </a>
@@ -407,7 +405,7 @@
         <section class="title-all__2">
             <div class="container">
                 <div class="title-h2 text-center">
-                    <h2>từ khách hàng</h2>
+                    <h2 data-title="Đánh giá">từ khách hàng</h2>
                 </div>
             </div>
         </section>
@@ -478,7 +476,7 @@
         <section class="title-all__3">
             <div class="container">
                 <div class="title-h2 text-center">
-                    <h2>Thị trường</h2>
+                    <h2 data-title="Tin tức">Thị trường</h2>
                 </div>
             </div>
         </section>
@@ -585,7 +583,7 @@
         <section class="footer-mid">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+                    <div class="col-lg-5 col-md-6 col-sm-6 col-xs-12">
                         <div class="footer-information">
                             <h3>
                                 TỔNG CÔNG TY CỔ PHẦN DELTA TRANSPORT
@@ -620,7 +618,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                         <div class="footer-introduce">
                             <h3>Giới thiệu</h3>
                             <ul>
@@ -654,9 +652,9 @@
                         </div>
 
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
                         <div class="row footer-contact">
-                            <div class="advisory-contact col-lg-12 col-md-12 col-sm-6 col-xs-12 p-0 mb-2">
+                            <div class="advisory_contact col-lg-12 col-md-6 col-sm-12 col-xs-12 p-0">
                                 <h3>hỗ trợ siêu tốc</h3>
                                 <div class="advisory">
                                     <div class="advisory-img">
@@ -668,7 +666,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="support-contact  col-lg-12 col-md-12 col-sm-6 col-xs-12 p-0 mb-2">
+                            <div class="support-contact  col-lg-12 col-md-6 col-sm-12 col-xs-12 p-0 ">
                                 <p class="contact-p">Hỗ trợ</p>
                                 <div class="contact-icon d-flex">
                                     <a href=""><i class="fab fa-facebook-square"></i></a>
@@ -708,4 +706,5 @@
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <script src="./fancybox/fancybox.umd.js"></script>
 <script src="./app.js"></script>
+
 </html>
